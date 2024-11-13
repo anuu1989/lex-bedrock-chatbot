@@ -13,6 +13,7 @@ Resources:
       Edition: "DEVELOPER_EDITION"
   KendraDataSource:
     Type: AWS::Kendra::DataSource
+    DependsOn: "KendraIndex"
     Properties: 
       DataSourceConfiguration: 
         S3Configuration: 

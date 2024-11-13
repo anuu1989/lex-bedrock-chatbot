@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-CF_STACK_NAME="llm-lex-chatbot"
+CF_STACK_NAME="aabg-llm-lex-chatbot"
 
 get_account_params() {
   ACCOUNT_ID=$(aws sts get-caller-identity \
